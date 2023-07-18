@@ -12,13 +12,12 @@ Before proceeding with the steps outlined in this guide, please ensure that you 
 ## Step 1: Set Up the React App
 1. Open your terminal or command prompt.
 2. Navigate to the desired directory where you want to create your React app.
-3. Run the following command to create a new React app using `create-react-app`:
+3. Run the following command to create a new React app using `vite`:
 
    ```
-   npx create-react-app my-app
+   npm create vite@latest
    ```
 
-   Replace `my-app` with the name of your app. This command sets up a new React project with the necessary boilerplate code.
 
 4. Once the command completes, navigate into the app's directory:
 
@@ -31,14 +30,9 @@ Before proceeding with the steps outlined in this guide, please ensure that you 
 2. To start the React app, run the following command:
 
    ```
-   npm start
+   npm run dev
    ```
 
-   If you're using Yarn, run:
-
-   ```
-   yarn start
-   ```
 
    This command will start the development server and open the app in your default browser. Any changes you make to the code will automatically refresh the app.
 
